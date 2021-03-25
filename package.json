@@ -1,0 +1,7 @@
+{
+  "name": "bookers2",
+  "private": true,
+  "dependencies": {
+    "bootstrap-icons": "^1.4.0"
+  }
+}
