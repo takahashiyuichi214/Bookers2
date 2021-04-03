@@ -23,27 +23,20 @@
   padding: 0;
   box-sizing: border-box;;
  }
-clearfix::after {
-  content: "";
-  display: block;
-  clear: both;
-}
-.navbar-nav {
+ 
+.navbar-nav{
   flex-direction: row;
 }
+
 .title {
   color: #fff;
   font-size: 20px;
 }
 .body {
   margin: 55px 10% 0px 8%;
+  white-space: nowrap;
 }
-.btn-block {
-  width: 100%;
-}
-.btn-sm{
-  width: 100%;
-}
+
 .notice {
   color: green;
   }
@@ -57,4 +50,9 @@ clearfix::after {
 }
 .actions {
   margin-top: 5px;
+}
+
+.btn-sm,.btn-block {
+    display: block;
+    width: 100%;
 }
