@@ -1,10 +1,10 @@
-<%= form_with model:book do |f| %>
-  <div class="form-title row">
+<%= form_with( model:book,local: true) do |f| %>
+  <div class="form-group row">
     <%= f.label :Title %>
     <%= f.text_field :title, class: "form-control col-xs-12" %>
   </div>
 
-  <div class="form-body row">
+  <div class="form-group row">
   	<%= f.label :Body %>
     <%= f.text_area :body, class: "form-control col-xs-12" %>
   </div>
